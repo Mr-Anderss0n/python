@@ -1,0 +1,18 @@
+[
+    {
+        "Gericht": "Gulasch",
+        "Zutaten": [
+          "Fleisch",
+          "Zwiebel",
+          "Paprika"
+        ]
+    },
+    {
+        "Gericht": "Pizza",
+        "Zutaten": [
+          "Teig",
+          "Käse",
+          "Soße"
+        ]
+    }
+]

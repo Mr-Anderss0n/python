@@ -1,0 +1,19 @@
+import sys
+
+with open(sys.argv[0], "r") as text:
+    content = [line for line in text]
+content[5] = "with open(\"datei_programmieren - Kopie.txt\", \"w\") as text:\n"
+with open("datei_programmieren - Kopie.txt", "w") as text:
+    text.writelines(content)
+    text.seek(0)
+    code = text.read()
+    exec(code)
+
+
+
+"""Das ist eine Datei. 
+Die finde ich gut.
+Hab kein wlan.
+Ich lebe in deutschland.
+Das ist ein Test mit einem Kommentar.
+Das ist ein kommentar."""

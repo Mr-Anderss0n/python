@@ -1,0 +1,9 @@
+{
+    "titel": "Bescheurte Namen",
+    "isbn": "1234",
+    "autoren": [
+        "Gustav",
+        "Balthasar",
+        "Urs"
+    ]
+}
